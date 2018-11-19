@@ -1,6 +1,6 @@
 
 #define BLYNK_PRINT Serial
-
+#define DEBUG (0) // Disable degub = 0, enable = 1
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
@@ -91,7 +91,7 @@ struct Settings {
   65300,
   78000,
   {0, 0, 0, 0, 0, 0, 0},
-  10,
+  1,
   -7,
   -21600,
 };
@@ -183,8 +183,8 @@ BLYNK_WRITE(V3) {
   TimeInputParam t(param);
   loadSettings();
   // Process start time
-  printSettings();
   saveTimeSetting(t);
+  printSettings();
   setColour(0, 0, 0);
 
 }
@@ -339,7 +339,7 @@ void setup()
   Blynk.begin(auth, ssid, pass);
   Serial.println("Loaded following on startup");
   loadSettings();
-  printSettings();
+  
 
   WiFi.begin(ssid, pass);
 
@@ -401,8 +401,9 @@ void loop()
     lastAnimationUpdate = millis();
   }
 
-  if(millis()%10000 == 0){
+  if(DEBUG>0 && millis()%10000 == 0){
     Serial.println("DEBUG");
+    printSettings();
      Serial.print("last ntp sync: ");
     Serial.println(lastNTPSync);
         Serial.print("Current time sec: ");

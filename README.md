@@ -24,10 +24,13 @@ There are probably cheaper options, if found please link here.
  * Arduino Neopixel library
  * ESP8266 board Arduino IDE install 
 
+##UI
+![alt text](https://github.com/kirihar2/SunlightAlarm/images/Blynk_UI.jpg "Blynk UI ")
+
 
 ## Background
 
-For those who live in an area where sunlight is a luxury, this project is a great way to replenish the need for natural light. This smart sunlight alarm aims to fix the issue by providing an open source software for the components listed above. 
+For those who live in an area where sunlight is a luxury, this project is a great way to replenish the need for natural light. This smart sunlight alarm aims to fix the issue by providing an open source software for the components listed above. The clock is synced using us.pool.ntp.org and has the capability to store the alarm information i.e start, end time of the alarm set from the blynk app. 
 
 Below is a link to a video for the finished product. 
 
