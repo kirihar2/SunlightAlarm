@@ -25,7 +25,7 @@ There are probably cheaper options, if found please link here.
  * ESP8266 board Arduino IDE install 
 
 ##UI
-![alt text](https://github.com/kirihar2/SunlightAlarm/images/Blynk_UI.jpg "Blynk UI ")
+![alt text](https://github.com/kirihar2/SunlightAlarm/blob/master/images/Blynk_UI.jpg "Blynk UI ")
 
 
 ## Background
