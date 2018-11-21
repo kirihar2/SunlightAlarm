@@ -52,12 +52,12 @@ BlynkTimer timer;
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "f926197c1ae94bc28b2a8a71d83689fb";
+char auth[] = "";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "NETGEAR62";
-char pass[] = "gracefulroad125";
+char ssid[] = "";
+char pass[] = "";
 
 #define ledPin D1
 
