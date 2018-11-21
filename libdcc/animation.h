@@ -1019,7 +1019,7 @@ int drawSunriseFrame() {
     //Serial.println(level * PWM_RANGE_FULL);
 
   }
-
+  delay(10);
   return 1;
 }
 
@@ -1051,6 +1051,7 @@ int drawFadeoutFrame() {
   if (white_pin_val > 0){
     analogWrite(WHITE_PIN, (pixels.getPixelColor(NUM_LEDS-1)& 0x0000FF) * PWM_RANGE_FULL / 256);
   }
+  delay(5);
   return more;
 }
 #endif

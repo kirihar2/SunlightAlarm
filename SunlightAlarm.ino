@@ -329,6 +329,8 @@ void setup()
   //pinMode(ledPin, OUTPUT);
   pinMode(RED_LED_PIN, OUTPUT);
   //analogWrite(ledPin, 0);
+  analogWriteFreq(1000);
+
   analogWriteRange(PWM_RANGE_FULL);
   pinMode(WHITE_PIN, OUTPUT);
 
@@ -452,6 +454,3 @@ void loop()
   //digitalClockDisplay();
 
 }
-
-
-
