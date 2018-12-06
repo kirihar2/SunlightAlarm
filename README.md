@@ -33,6 +33,7 @@ There are probably cheaper options, if found please link here.
 For those who live in an area where sunlight is a luxury, this project is a great way to replenish the need for natural light. This smart sunlight alarm aims to fix the issue by providing an open source software for the components listed above. The clock is synced using us.pool.ntp.org and has the capability to store the alarm information i.e start, end time of the alarm set from the blynk app. 
 
 Below is a link to a video for the finished product. 
+https://www.youtube.com/watch?v=UTYg_8o_cEs
 
 Special thanks to lukecyca for the influence and base code. https://github.com/lukecyca/partycat-sunrise-alarm-clock. 
 
